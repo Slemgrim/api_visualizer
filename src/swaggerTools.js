@@ -1,4 +1,4 @@
-export function prepareJsonApi(apiJson){
+export function prepareSwaggerFormat(apiJson){
     let root = {
         endpoint: apiJson.host + apiJson.basePath,
         methods: [],

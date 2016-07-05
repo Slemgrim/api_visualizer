@@ -1,7 +1,7 @@
-import {prepareJsonApi, getEndpointParent, getEndpointId} from './swaggerTools';
+import {prepareSwaggerFormat, getEndpointParent, getEndpointId} from './swaggerTools';
 
 export default function apiVisualizer(data){
-    let api = prepareJsonApi(data);
+    let api = prepareSwaggerFormat(data);
 
     let width = 960,
         height = 2000;
